@@ -7,7 +7,7 @@ class FABBottomAppBar extends StatefulWidget {
     this.items,
     this.centerItemText,
     this.textSize,
-    this.height: 40.0,
+    this.height: 60.0,
     this.iconSize: 24.0,
     this.backgroundColor,
     this.inActiveColor,
