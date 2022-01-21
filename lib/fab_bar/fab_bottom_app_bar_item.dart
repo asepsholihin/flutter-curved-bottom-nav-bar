@@ -16,5 +16,5 @@ class FABBottomAppBarItem {
   /// [Text] label of navigation bar item
   String? text;
 
-  Number? size;
+  double? size;
 }
