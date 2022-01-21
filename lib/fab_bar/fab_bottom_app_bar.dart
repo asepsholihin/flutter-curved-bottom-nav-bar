@@ -26,7 +26,7 @@ class FABBottomAppBar extends StatefulWidget {
   /// [Text] label for [actionButton]
   final String? centerItemText;
 
-  /// textSize label for [actionButton]
+  /// size label for [actionButton]
   final double? textSize;
 
   /// height of navigation bar
@@ -107,7 +107,7 @@ class FABBottomAppBarState extends State<FABBottomAppBar> {
               style: TextStyle(
                   color: widget.centerSelected
                       ? widget.activeColor
-                      : widget.inActiveColor, widget.textSize ?? 0.0),
+                      : widget.inActiveColor, fontSize: widget.textSize ?? 0.0),
             ),
           ],
         ),
