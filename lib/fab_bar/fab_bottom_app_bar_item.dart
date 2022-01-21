@@ -1,7 +1,9 @@
+import 'dart:svg';
+
 import 'package:flutter/material.dart';
 
 class FABBottomAppBarItem {
-  FABBottomAppBarItem({this.activeIcon, this.inActiveIcon, this.text}) {
+  FABBottomAppBarItem({this.activeIcon, this.inActiveIcon, this.text, this.size}) {
     assert(this.activeIcon != null);
   }
 
@@ -13,4 +15,6 @@ class FABBottomAppBarItem {
 
   /// [Text] label of navigation bar item
   String? text;
+
+  Number? size;
 }
